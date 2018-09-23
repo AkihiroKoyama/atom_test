@@ -259,7 +259,7 @@ if (isset($search)) {
   if ($search['baggage_classify'] == '0') {
       //両方持ち込みの場合
      $word = $search['word'];
-     $classify = '機内への持ち込み・預け入れ共に可能です';
+     $classify = '機内への持ち込み・預け入れ共に可能';
      $condition_carry_in = $search['condition_carry_in'];
      $condition_azukeire = $search['condition_azukeire'];
      $per_person = $search['per_person'];
