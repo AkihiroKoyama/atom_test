@@ -1,0 +1,7 @@
+.media-object {
+	display: inline-block;
+}
+
+.navbar-nav.navbar-right:last-child{
+	margin-right: 0px;
+}

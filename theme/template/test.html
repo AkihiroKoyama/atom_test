@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+	<head>
+
+	</head>
+	<body>
+		<button type="button" onclick="mamakim();"></button>
+		<h1 id="output"></h1>
+		<script>
+			function mamakim(){
+				var Age=window.prompt("How old are you?");
+
+				if(Age > 70){
+					document.getElementById("output").innerHTML="You are old enough";
+				}else if(Age > 30){
+					document.getElementById("output").innerHTML="You are old need to make money";
+				}else if(Age > 20){
+					document.getElementById("output").innerHTML="You need a partner";
+				}else if(Age > 10){
+					document.getElementById("output").innerHTML="You need to grow";
+				}else{
+					document.getElementById("output").innerHTML="You are a baby";
+				}
+			}
+		</script>
